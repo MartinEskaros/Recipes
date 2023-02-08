@@ -1,12 +1,16 @@
 body {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
   }
-  
+    
   .title {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+  }
+
+  .bigger{
+    color: rgb(169, 121, 43);
   }
   
   h1 {
@@ -31,18 +35,18 @@ body {
   
   a.recipe {
     text-decoration: none;
-    color: #333;
+    color: #fff;
     display:inline-block;
     margin: 20px;
     padding: 20px;
-    background-color: #fff;
+    background-color: rgb(169, 121, 43);
     border-radius: 10px;
     transition: all 0.3s ease-in-out;
   }
   
   a.recipe:hover {
-    background-color: #dad8d8d1;
-    color: #000;
+    background-color: rgb(235, 232, 232);
+    color: rgb(169, 121, 43);
   }
   
   @media (max-width: 768px) {
