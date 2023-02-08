@@ -1,0 +1,65 @@
+body {
+    background-color: #f2f2f2;
+  }
+  
+  .title {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  
+  h1 {
+    font-size: 100px;
+    font-weight: 400;
+    color: #333;
+  }
+  
+  h2 {
+    font-weight: 100;
+    color: #333;
+    margin-bottom: 50px;
+  }
+  
+  div {
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 50px;
+  }
+  
+  a.recipe {
+    text-decoration: none;
+    color: #333;
+    display:inline-block;
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a.recipe:hover {
+    background-color: #dad8d8d1;
+    color: #000;
+  }
+  
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 70px;
+    }
+  
+    h2 {
+      font-size: 30px;
+    }
+  
+    div {
+      font-size: 30px;
+    }
+  
+    a.recipe {
+      font-size: 20px;
+    }
+  }
+  
